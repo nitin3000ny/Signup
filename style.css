@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #0a0a0a;
+    padding: 4px;
+    padding-left: 0;
+}
+
+header p {
+    font-size: .69rem;
+    font-weight: 700;
+    color: #232222;
+    margin-bottom: 18px;
+}
+
+.outerbox {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top right, #f8f8f7aa, rgb(79, 218, 165));
+}
+
+.inner label {
+    display: block;
+    margin-bottom: 2px;
+
+}
+
+.inner input {
+    width: 100%;
+    border: 1px solid #03071eaa;
+    border-radius: 6px;
+    padding: 6px;
+    margin: .4rem 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.inner {
+    z-index: 2;
+    border-radius: 6%;
+    font-family: 'Lato', sans-serif;
+    height: 400px;
+    width: 350px;
+    position: relative;
+    margin: 0 auto;
+    padding: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 2px 3px 5px black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.inner>footer>p {
+    font-size: .81rem;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.inner input[type="submit"] {
+    border: none;
+    color: white;
+    background-color: rgb(5, 165, 165);
+}
+
+.inner input[type="submit"]:hover {
+    background-color: rgb(4, 93, 93);
+    cursor: pointer;
+    box-shadow: 2px 3px 5px black;
+}
+
+.inner>footer>p>a {
+    font-weight: bold;
+
+    text-decoration: none;
+    color: rgb(1, 44, 44);
+}
+.inner>footer>p>a:hover{
+    font-size: larger;
+}
+
+.cricle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ffffffaa, #45b276);
+}
+
+.c1 {
+    position: absolute;
+    top: 100px;
+    left: 200px
+}
+
+.c2 {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    background: linear-gradient(to left, #ffffffaa, #45b276);
+
+}
